@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "PagosApplication",
+            "request": "launch",
+            "mainClass": "com.Pedidos.Pagos.PagosApplication",
+            "projectName": "Pagos"
+        },
+        {
+            "type": "java",
+            "name": "InventarioApplication",
+            "request": "launch",
+            "mainClass": "com.Catalogo.Inventario.InventarioApplication",
+            "projectName": "Inventario"
+        },
+        {
+            "type": "java",
+            "name": "CalificacionesApplication",
+            "request": "launch",
+            "mainClass": "com.Resenas.Calificaciones.CalificacionesApplication",
+            "projectName": "Calificaciones"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-UsuariosApplication<Usuarios>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.Gestion.Usuarios.UsuariosApplication",
+            "projectName": "Usuarios",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
