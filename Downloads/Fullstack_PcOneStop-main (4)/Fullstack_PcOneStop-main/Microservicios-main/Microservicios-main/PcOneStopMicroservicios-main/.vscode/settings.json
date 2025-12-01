@@ -1,0 +1,18 @@
+{
+  "files.autoSave": "off",
+  "files.hotExit": "off",
+  "files.saveConflictResolution": "askUser",
+  "files.promptToSave": "never",
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/target/**": true
+  },
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.compile.nullAnalysis.mode": "automatic"
+}
+
